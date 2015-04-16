@@ -1,0 +1,6 @@
+public/
+.DS_Store
+client/dist/
+node_modules/
+client/user/
+lib/
