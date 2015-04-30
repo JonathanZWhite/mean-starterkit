@@ -31,9 +31,10 @@
     angular
         .module('app', [
             'app.home',
+            'app.core',
             'ui.router'
         ])
-        .config(config) // 1st
+        .config(['$locationProvider', '$stateProvider', '$urlRouterProvider', config]) // 1st
         .run(run) // 2nd
         .controller('AppController', AppController); // 3rd
 

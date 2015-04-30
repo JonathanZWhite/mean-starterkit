@@ -1,0 +1,1 @@
+angular.module("app.core").run(["$templateCache", function($templateCache) {$templateCache.put("home/home.tpl.html","<h1>This is the home page</h1>");}]);

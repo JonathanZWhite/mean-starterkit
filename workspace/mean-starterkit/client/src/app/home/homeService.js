@@ -2,9 +2,9 @@
 	'use strict';
 
 	function HomeService() {
-		var Landing = {};
+		var Home = {};
 
-		return Landing;
+		return Home;
 	}
 
 	angular
